@@ -1,6 +1,8 @@
 def greet_characters(array)
   # Use `each` to enumerate over the provided array
-  #
+  array.count { |dwarf|
+    puts "Hello #{dwarf}!"
+  }
   # Print a custom greeting for each element
 end
 
